@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="14" total="34" passed="20" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-02-19T13:47:05 IST" name="Royal Caribbean Alaska Auomation" finished-at="2021-02-19T13:49:00 IST" duration-ms="114200">
+    <groups>
+    </groups>
+    <test started-at="2021-02-19T13:47:05 IST" name="Chrome Browser Compatibility Test" finished-at="2021-02-19T13:48:00 IST" duration-ms="54993">
+      <class name="com.royalcarribbean.testobject.LibraryFunctions">
+        <test-method is-config="true" signature="initializeThePropertiesFile()[pri:0, instance:com.royalcarribbean.testobject.LibraryFunctions@5f9b2141]" started-at="2021-02-19T13:47:25 IST" name="initializeThePropertiesFile" finished-at="2021-02-19T13:47:25 IST" depends-on-methods="com.royalcarribbean.utility.Driver.setupDriver" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeThePropertiesFile -->
+      </class> <!-- com.royalcarribbean.testobject.LibraryFunctions -->
+      <class name="com.royalcarribbean.utility.Driver">
+        <test-method is-config="true" signature="setupDriver(java.lang.String, java.lang.String)[pri:0, instance:com.royalcarribbean.utility.Driver@247d8ae]" started-at="2021-02-19T13:47:05 IST" name="setupDriver" finished-at="2021-02-19T13:47:25 IST" duration-ms="19945" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.royalcaribbean.com/alaska-cruises]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method is-config="true" signature="killTheBrowser()[pri:0, instance:com.royalcarribbean.utility.Driver@247d8ae]" started-at="2021-02-19T13:47:59 IST" name="killTheBrowser" finished-at="2021-02-19T13:48:00 IST" duration-ms="1011" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killTheBrowser -->
+      </class> <!-- com.royalcarribbean.utility.Driver -->
+      <class name="com.royalcarribbean.testcases.TestCase">
+        <test-method signature="scroll()[pri:1, instance:com.royalcarribbean.testcases.TestCase@6bedbc4d]" started-at="2021-02-19T13:47:25 IST" name="scroll" finished-at="2021-02-19T13:47:33 IST" duration-ms="7377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scroll -->
+        <test-method signature="isHolidayCruiseElementPresent()[pri:0, instance:com.royalcarribbean.testcases.TestCase@6bedbc4d]" started-at="2021-02-19T13:47:33 IST" name="isHolidayCruiseElementPresent" finished-at="2021-02-19T13:47:34 IST" depends-on-methods="com.royalcarribbean.testcases.TestCase.scroll" duration-ms="1166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isHolidayCruiseElementPresent -->
+        <test-method signature="clickOnHolidayCruise()[pri:0, instance:com.royalcarribbean.testcases.TestCase@6bedbc4d]" started-at="2021-02-19T13:47:34 IST" name="clickOnHolidayCruise" finished-at="2021-02-19T13:47:41 IST" depends-on-methods="com.royalcarribbean.testcases.TestCase.isHolidayCruiseElementPresent" duration-ms="6590" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnHolidayCruise -->
+        <test-method signature="isSearchButtonPresentandclickOnIt()[pri:0, instance:com.royalcarribbean.testcases.TestCase@6bedbc4d]" started-at="2021-02-19T13:47:41 IST" name="isSearchButtonPresentandclickOnIt" finished-at="2021-02-19T13:47:43 IST" depends-on-methods="com.royalcarribbean.testcases.TestCase.clickOnHolidayCruise" duration-ms="2835" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isSearchButtonPresentandclickOnIt -->
+        <test-method signature="DoTheSearch()[pri:0, instance:com.royalcarribbean.testcases.TestCase@6bedbc4d]" started-at="2021-02-19T13:47:43 IST" name="DoTheSearch" finished-at="2021-02-19T13:47:51 IST" depends-on-methods="com.royalcarribbean.testcases.TestCase.isSearchButtonPresentandclickOnIt" duration-ms="7224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DoTheSearch -->
+        <test-method signature="compareResults()[pri:0, instance:com.royalcarribbean.testcases.TestCase@6bedbc4d]" started-at="2021-02-19T13:47:51 IST" name="compareResults" finished-at="2021-02-19T13:47:51 IST" depends-on-methods="com.royalcarribbean.testcases.TestCase.DoTheSearch" duration-ms="694" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- compareResults -->
+        <test-method signature="findAndclickOnResult()[pri:2, instance:com.royalcarribbean.testcases.TestCase@6bedbc4d]" started-at="2021-02-19T13:47:51 IST" name="findAndclickOnResult" finished-at="2021-02-19T13:47:52 IST" depends-on-methods="com.royalcarribbean.testcases.TestCase.DoTheSearch" duration-ms="693" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findAndclickOnResult -->
+        <test-method signature="isImagePresent()[pri:0, instance:com.royalcarribbean.testcases.TestCase@6bedbc4d]" started-at="2021-02-19T13:47:52 IST" name="isImagePresent" finished-at="2021-02-19T13:47:59 IST" depends-on-methods="com.royalcarribbean.testcases.TestCase.findAndclickOnResult" duration-ms="6726" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isImagePresent -->
+        <test-method signature="selectView()[pri:0, instance:com.royalcarribbean.testcases.TestCase@6bedbc4d]" started-at="2021-02-19T13:47:59 IST" name="selectView" finished-at="2021-02-19T13:47:59 IST" depends-on-methods="com.royalcarribbean.testcases.TestCase.isImagePresent" duration-ms="483" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectView -->
+        <test-method signature="isRoyalSuitePresent()[pri:0, instance:com.royalcarribbean.testcases.TestCase@6bedbc4d]" started-at="2021-02-19T13:47:59 IST" name="isRoyalSuitePresent" finished-at="2021-02-19T13:47:59 IST" depends-on-methods="com.royalcarribbean.testcases.TestCase.selectView" duration-ms="101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isRoyalSuitePresent -->
+      </class> <!-- com.royalcarribbean.testcases.TestCase -->
+    </test> <!-- Chrome Browser Compatibility Test -->
+    <test started-at="2021-02-19T13:48:00 IST" name="Mozilla Firefox Browser Compatibility Test" finished-at="2021-02-19T13:49:00 IST" duration-ms="59115">
+      <class name="com.royalcarribbean.testobject.LibraryFunctions">
+        <test-method is-config="true" signature="initializeReportMessageList()[pri:0, instance:com.royalcarribbean.testobject.LibraryFunctions@71238fc2]" started-at="2021-02-19T13:47:05 IST" name="initializeReportMessageList" finished-at="2021-02-19T13:47:05 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeReportMessageList -->
+        <test-method is-config="true" signature="initializeThePropertiesFile()[pri:0, instance:com.royalcarribbean.testobject.LibraryFunctions@71238fc2]" started-at="2021-02-19T13:48:22 IST" name="initializeThePropertiesFile" finished-at="2021-02-19T13:48:22 IST" depends-on-methods="com.royalcarribbean.utility.Driver.setupDriver" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeThePropertiesFile -->
+        <test-method is-config="true" signature="logReportToExcel()[pri:0, instance:com.royalcarribbean.testobject.LibraryFunctions@71238fc2]" started-at="2021-02-19T13:49:00 IST" name="logReportToExcel" finished-at="2021-02-19T13:49:01 IST" duration-ms="1268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logReportToExcel -->
+      </class> <!-- com.royalcarribbean.testobject.LibraryFunctions -->
+      <class name="com.royalcarribbean.utility.Driver">
+        <test-method is-config="true" signature="setupDriver(java.lang.String, java.lang.String)[pri:0, instance:com.royalcarribbean.utility.Driver@2a54a73f]" started-at="2021-02-19T13:48:00 IST" name="setupDriver" finished-at="2021-02-19T13:48:22 IST" duration-ms="21732" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.royalcaribbean.com/alaska-cruises]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method is-config="true" signature="killTheBrowser()[pri:0, instance:com.royalcarribbean.utility.Driver@2a54a73f]" started-at="2021-02-19T13:48:58 IST" name="killTheBrowser" finished-at="2021-02-19T13:49:00 IST" duration-ms="2013" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killTheBrowser -->
+      </class> <!-- com.royalcarribbean.utility.Driver -->
+      <class name="com.royalcarribbean.testcases.TestCase">
+        <test-method signature="scroll()[pri:1, instance:com.royalcarribbean.testcases.TestCase@3d6f0054]" started-at="2021-02-19T13:48:22 IST" name="scroll" finished-at="2021-02-19T13:48:31 IST" duration-ms="8337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scroll -->
+        <test-method signature="isHolidayCruiseElementPresent()[pri:0, instance:com.royalcarribbean.testcases.TestCase@3d6f0054]" started-at="2021-02-19T13:48:31 IST" name="isHolidayCruiseElementPresent" finished-at="2021-02-19T13:48:32 IST" depends-on-methods="com.royalcarribbean.testcases.TestCase.scroll" duration-ms="1208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isHolidayCruiseElementPresent -->
+        <test-method signature="clickOnHolidayCruise()[pri:0, instance:com.royalcarribbean.testcases.TestCase@3d6f0054]" started-at="2021-02-19T13:48:32 IST" name="clickOnHolidayCruise" finished-at="2021-02-19T13:48:41 IST" depends-on-methods="com.royalcarribbean.testcases.TestCase.isHolidayCruiseElementPresent" duration-ms="9201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnHolidayCruise -->
+        <test-method signature="isSearchButtonPresentandclickOnIt()[pri:0, instance:com.royalcarribbean.testcases.TestCase@3d6f0054]" started-at="2021-02-19T13:48:41 IST" name="isSearchButtonPresentandclickOnIt" finished-at="2021-02-19T13:48:43 IST" depends-on-methods="com.royalcarribbean.testcases.TestCase.clickOnHolidayCruise" duration-ms="2081" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isSearchButtonPresentandclickOnIt -->
+        <test-method signature="DoTheSearch()[pri:0, instance:com.royalcarribbean.testcases.TestCase@3d6f0054]" started-at="2021-02-19T13:48:43 IST" name="DoTheSearch" finished-at="2021-02-19T13:48:49 IST" depends-on-methods="com.royalcarribbean.testcases.TestCase.isSearchButtonPresentandclickOnIt" duration-ms="5797" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DoTheSearch -->
+        <test-method signature="compareResults()[pri:0, instance:com.royalcarribbean.testcases.TestCase@3d6f0054]" started-at="2021-02-19T13:48:49 IST" name="compareResults" finished-at="2021-02-19T13:48:49 IST" depends-on-methods="com.royalcarribbean.testcases.TestCase.DoTheSearch" duration-ms="434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- compareResults -->
+        <test-method signature="findAndclickOnResult()[pri:2, instance:com.royalcarribbean.testcases.TestCase@3d6f0054]" started-at="2021-02-19T13:48:49 IST" name="findAndclickOnResult" finished-at="2021-02-19T13:48:56 IST" depends-on-methods="com.royalcarribbean.testcases.TestCase.DoTheSearch" duration-ms="7114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findAndclickOnResult -->
+        <test-method signature="isImagePresent()[pri:0, instance:com.royalcarribbean.testcases.TestCase@3d6f0054]" started-at="2021-02-19T13:48:56 IST" name="isImagePresent" finished-at="2021-02-19T13:48:57 IST" depends-on-methods="com.royalcarribbean.testcases.TestCase.findAndclickOnResult" duration-ms="388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isImagePresent -->
+        <test-method signature="selectView()[pri:0, instance:com.royalcarribbean.testcases.TestCase@3d6f0054]" started-at="2021-02-19T13:48:57 IST" name="selectView" finished-at="2021-02-19T13:48:57 IST" depends-on-methods="com.royalcarribbean.testcases.TestCase.isImagePresent" duration-ms="635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectView -->
+        <test-method signature="isRoyalSuitePresent()[pri:0, instance:com.royalcarribbean.testcases.TestCase@3d6f0054]" started-at="2021-02-19T13:48:57 IST" name="isRoyalSuitePresent" finished-at="2021-02-19T13:48:58 IST" depends-on-methods="com.royalcarribbean.testcases.TestCase.selectView" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isRoyalSuitePresent -->
+      </class> <!-- com.royalcarribbean.testcases.TestCase -->
+    </test> <!-- Mozilla Firefox Browser Compatibility Test -->
+  </suite> <!-- Royal Caribbean Alaska Auomation -->
+</testng-results>

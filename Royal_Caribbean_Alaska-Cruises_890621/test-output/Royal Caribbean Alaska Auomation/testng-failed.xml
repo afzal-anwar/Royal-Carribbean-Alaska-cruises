@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Royal Caribbean Alaska Auomation]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Chrome Browser Compatibility Test(failed)">
+    <parameter name="baseUrl" value="https://www.royalcaribbean.com/alaska-cruises"/>
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.royalcarribbean.testcases.TestCase">
+        <methods>
+          <include name="isRoyalSuitePresent"/>
+          <include name="selectView"/>
+          <include name="setupDriver"/>
+          <include name="scroll"/>
+          <include name="logReportToExcel"/>
+          <include name="isHolidayCruiseElementPresent"/>
+          <include name="isSearchButtonPresentandclickOnIt"/>
+          <include name="findAndclickOnResult"/>
+          <include name="isImagePresent"/>
+          <include name="clickOnHolidayCruise"/>
+          <include name="compareResults"/>
+          <include name="initializeReportMessageList"/>
+          <include name="initializeThePropertiesFile"/>
+          <include name="DoTheSearch"/>
+          <include name="killTheBrowser"/>
+        </methods>
+      </class> <!-- com.royalcarribbean.testcases.TestCase -->
+    </classes>
+  </test> <!-- Chrome Browser Compatibility Test(failed) -->
+  <test thread-count="5" name="Mozilla Firefox Browser Compatibility Test(failed)">
+    <parameter name="baseUrl" value="https://www.royalcaribbean.com/alaska-cruises"/>
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.royalcarribbean.testcases.TestCase">
+        <methods>
+          <include name="isRoyalSuitePresent"/>
+          <include name="selectView"/>
+          <include name="setupDriver"/>
+          <include name="scroll"/>
+          <include name="logReportToExcel"/>
+          <include name="isHolidayCruiseElementPresent"/>
+          <include name="isSearchButtonPresentandclickOnIt"/>
+          <include name="findAndclickOnResult"/>
+          <include name="isImagePresent"/>
+          <include name="clickOnHolidayCruise"/>
+          <include name="compareResults"/>
+          <include name="initializeReportMessageList"/>
+          <include name="initializeThePropertiesFile"/>
+          <include name="DoTheSearch"/>
+          <include name="killTheBrowser"/>
+        </methods>
+      </class> <!-- com.royalcarribbean.testcases.TestCase -->
+    </classes>
+  </test> <!-- Mozilla Firefox Browser Compatibility Test(failed) -->
+</suite> <!-- Failed suite [Royal Caribbean Alaska Auomation] -->
